@@ -485,6 +485,7 @@ body {
           justify-content: center;
   max-width: 915px;
   margin: 0 auto;
+  color: #ffffff;
 }
 
 .about-card__body {
@@ -499,7 +500,6 @@ body {
       -ms-flex: 1 1 33.333%;
           flex: 1 1 33.333%;
   padding: 5px 15px 0;
-  color: #ffffff;
   max-width: 245px;
 }
 
@@ -532,6 +532,7 @@ body {
   font-size: 16px;
   line-height: 1;
   text-align: center;
+  color: #fff;
 }
 
 @media (max-width: 991.98px) {
@@ -1106,6 +1107,8 @@ body {
 }
 
 .card-recipes__icon {
+  position: relative;
+  z-index: 10;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -1114,7 +1117,7 @@ body {
 .card-recipes__ico {
   position: absolute;
   top: 30px;
-  right: 30px;
+  right: -500px;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
   border-radius: 50%;
